@@ -2231,6 +2231,40 @@
   "resolved" "https://registry.npmmirror.com/@types/node/download/@types/node-16.10.3.tgz"
   "version" "16.10.3"
 
+"@types/prop-types@*":
+  "integrity" "sha1-/PcgXCXf95Xuea8eMNosl5CAjxE="
+  "resolved" "https://registry.nlark.com/@types/prop-types/download/@types/prop-types-15.7.4.tgz"
+  "version" "15.7.4"
+
+"@types/react-native-vector-icons@^6.4.6":
+  "integrity" "sha1-ZDuFJmZoGzaZeJmpTZQK0p2IF20="
+  "resolved" "https://registry.npmmirror.com/@types/react-native-vector-icons/download/@types/react-native-vector-icons-6.4.9.tgz?cache=0&sync_timestamp=1632465708419&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Freact-native-vector-icons%2Fdownload%2F%40types%2Freact-native-vector-icons-6.4.9.tgz"
+  "version" "6.4.9"
+  dependencies:
+    "@types/react" "*"
+    "@types/react-native" "*"
+
+"@types/react-native@*":
+  "integrity" "sha1-CTtKKp/OIzVUjTW+PIkAvz67k3M="
+  "resolved" "https://registry.npmmirror.com/@types/react-native/download/@types/react-native-0.66.1.tgz"
+  "version" "0.66.1"
+  dependencies:
+    "@types/react" "*"
+
+"@types/react@*":
+  "integrity" "sha1-4Brj3nYT2sEJRWmIC7N5JzIgOtU="
+  "resolved" "https://registry.npmmirror.com/@types/react/download/@types/react-17.0.33.tgz"
+  "version" "17.0.33"
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    "csstype" "^3.0.2"
+
+"@types/scheduler@*":
+  "integrity" "sha1-GmL4lSVyPd4kuhsBsJK/XfitTTk="
+  "resolved" "https://registry.nlark.com/@types/scheduler/download/@types/scheduler-0.16.2.tgz?cache=0&sync_timestamp=1629709914739&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fscheduler%2Fdownload%2F%40types%2Fscheduler-0.16.2.tgz"
+  "version" "0.16.2"
+
 "@types/stack-utils@^1.0.1":
   "integrity" "sha1-CoUdO9lkmPolwzq3J47TvWXwbD4="
   "resolved" "https://registry.nlark.com/@types/stack-utils/download/@types/stack-utils-1.0.1.tgz?cache=0&sync_timestamp=1629710455797&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fstack-utils%2Fdownload%2F%40types%2Fstack-utils-1.0.1.tgz"
@@ -2522,6 +2556,13 @@
   "integrity" "sha1-bZUX654DDSQ2ZmZR6GvZ9vE1M8k="
   "resolved" "https://registry.npm.taobao.org/atob/download/atob-2.1.2.tgz"
   "version" "2.1.2"
+
+"axios@^0.24.0":
+  "integrity" "sha1-gE5voeS5xSiFAd2d/1anoJQNINY="
+  "resolved" "https://registry.npmmirror.com/axios/download/axios-0.24.0.tgz?cache=0&sync_timestamp=1635214996740&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Faxios%2Fdownload%2Faxios-0.24.0.tgz"
+  "version" "0.24.0"
+  dependencies:
+    "follow-redirects" "^1.14.4"
 
 "babel-core@^7.0.0-bridge.0":
   "integrity" "sha1-laSS3dkPm06aSh2hTrM1uHtjTs4="
@@ -2993,7 +3034,7 @@
   "resolved" "https://registry.npm.taobao.org/color-support/download/color-support-1.1.3.tgz"
   "version" "1.1.3"
 
-"color@^3.1.3":
+"color@^3.1.2", "color@^3.1.3":
   "integrity" "sha1-NUTcGYyvRJDD7MmnkLVP6f9F4WQ="
   "resolved" "https://registry.nlark.com/color/download/color-3.2.1.tgz?cache=0&sync_timestamp=1628105483356&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcolor%2Fdownload%2Fcolor-3.2.1.tgz"
   "version" "3.2.1"
@@ -3184,7 +3225,7 @@
     "hyphenate-style-name" "^1.0.2"
     "isobject" "^3.0.1"
 
-"csstype@^3.0.8":
+"csstype@^3.0.2", "csstype@^3.0.8":
   "integrity" "sha1-ZBCvMbJr0FIJM9AsvGT86c4/vws="
   "resolved" "https://registry.nlark.com/csstype/download/csstype-3.0.9.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcsstype%2Fdownload%2Fcsstype-3.0.9.tgz"
   "version" "3.0.9"
@@ -3243,6 +3284,11 @@
   "integrity" "sha1-08R/1vOpPVF7FEJrBiihewEl9fc="
   "resolved" "https://registry.npm.taobao.org/deepmerge/download/deepmerge-3.3.0.tgz"
   "version" "3.3.0"
+
+"deepmerge@^4.2.2":
+  "integrity" "sha1-RNLqNnm49NT/ujPwPYZfwee/SVU="
+  "resolved" "https://registry.npm.taobao.org/deepmerge/download/deepmerge-4.2.2.tgz"
+  "version" "4.2.2"
 
 "defaults@^1.0.3":
   "integrity" "sha1-xlYFHpgX2f8I7YgUd/P+QBnz730="
@@ -3791,6 +3837,11 @@
   "integrity" "sha1-n5iY6uyRqffDI+npktgatcWOYY8="
   "resolved" "https://registry.npmmirror.com/flow-parser/download/flow-parser-0.121.0.tgz"
   "version" "0.121.0"
+
+"follow-redirects@^1.14.4":
+  "integrity" "sha1-g4/fSKi73XnlLuUfsclOPtmLk3k="
+  "resolved" "https://registry.nlark.com/follow-redirects/download/follow-redirects-1.14.4.tgz?cache=0&sync_timestamp=1631622163078&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ffollow-redirects%2Fdownload%2Ffollow-redirects-1.14.4.tgz"
+  "version" "1.14.4"
 
 "fontfaceobserver@^2.1.0":
   "integrity" "sha1-4nBdKT4sWFplMcKnIpBWVzF6KZE="
@@ -4784,7 +4835,7 @@
   "resolved" "https://registry.npm.taobao.org/lodash.throttle/download/lodash.throttle-4.1.1.tgz"
   "version" "4.1.1"
 
-"lodash@^4.17.13", "lodash@^4.17.14", "lodash@^4.17.15", "lodash@^4.17.21", "lodash@^4.3.0":
+"lodash@^4.17.13", "lodash@^4.17.14", "lodash@^4.17.15", "lodash@^4.17.19", "lodash@^4.17.21", "lodash@^4.3.0":
   "integrity" "sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw="
   "resolved" "https://registry.npm.taobao.org/lodash/download/lodash-4.17.21.tgz"
   "version" "4.17.21"
@@ -5458,6 +5509,11 @@
   dependencies:
     "minimist" "^1.2.5"
 
+"moment@^2.27.0":
+  "integrity" "sha1-sr52n6MZQL6e7qZGnAdeNQBvo9M="
+  "resolved" "https://registry.npm.taobao.org/moment/download/moment-2.29.1.tgz"
+  "version" "2.29.1"
+
 "ms@^2.1.2":
   "integrity" "sha1-V0yBOM4dK1hh8LRFedut1gxmFbI="
   "resolved" "https://registry.npmmirror.com/ms/download/ms-2.1.3.tgz"
@@ -5700,6 +5756,11 @@
   "version" "6.4.0"
   dependencies:
     "is-wsl" "^1.1.0"
+
+"opencollective-postinstall@^2.0.3":
+  "integrity" "sha1-eg//l49tv6TQBiOPusmO1BmMMlk="
+  "resolved" "https://registry.npm.taobao.org/opencollective-postinstall/download/opencollective-postinstall-2.0.3.tgz"
+  "version" "2.0.3"
 
 "options@^0.0.6", "options@>=0.0.5":
   "integrity" "sha1-7CLTEoBrtT5zF3Pnza788cZDEo8="
@@ -6078,6 +6139,28 @@
     "jscodeshift" "^0.11.0"
     "nullthrows" "^1.1.1"
 
+"react-native-daterange-picker@^1.5.1":
+  "integrity" "sha1-PxgOFMDICJ3W+ogEjd7m0C2Kvyk="
+  "resolved" "https://registry.npmmirror.com/react-native-daterange-picker/download/react-native-daterange-picker-1.5.1.tgz"
+  "version" "1.5.1"
+  dependencies:
+    "lodash" "^4.17.19"
+    "moment" "^2.27.0"
+
+"react-native-elements@^3.4.2":
+  "integrity" "sha1-ZmAr6cXg4KKoMZE63sgP9lGNHuI="
+  "resolved" "https://registry.nlark.com/react-native-elements/download/react-native-elements-3.4.2.tgz"
+  "version" "3.4.2"
+  dependencies:
+    "@types/react-native-vector-icons" "^6.4.6"
+    "color" "^3.1.2"
+    "deepmerge" "^4.2.2"
+    "hoist-non-react-statics" "^3.3.2"
+    "lodash.isequal" "^4.5.0"
+    "opencollective-postinstall" "^2.0.3"
+    "react-native-ratings" "8.0.4"
+    "react-native-size-matters" "^0.3.1"
+
 "react-native-gesture-handler@^1.10.3", "react-native-gesture-handler@>= 1.5.0":
   "integrity" "sha1-lCu/KWO79J+nlZNgDunXtdqzz8A="
   "resolved" "https://registry.npm.taobao.org/react-native-gesture-handler/download/react-native-gesture-handler-1.10.3.tgz"
@@ -6094,7 +6177,14 @@
   "resolved" "https://registry.npm.taobao.org/react-native-iphone-x-helper/download/react-native-iphone-x-helper-1.3.1.tgz"
   "version" "1.3.1"
 
-"react-native-safe-area-context@>= 0.6.0", "react-native-safe-area-context@>= 3.0.0", "react-native-safe-area-context@3.2.0":
+"react-native-ratings@8.0.4":
+  "integrity" "sha1-79XrrYrMCL+Y0005sY+3poE++ZE="
+  "resolved" "https://registry.nlark.com/react-native-ratings/download/react-native-ratings-8.0.4.tgz"
+  "version" "8.0.4"
+  dependencies:
+    "lodash" "^4.17.15"
+
+"react-native-safe-area-context@^3.1.9", "react-native-safe-area-context@>= 0.6.0", "react-native-safe-area-context@>= 3.0.0", "react-native-safe-area-context@3.2.0":
   "integrity" "sha1-BhE8ayCPmC1oq1w869GZypPbaUE="
   "resolved" "https://registry.nlark.com/react-native-safe-area-context/download/react-native-safe-area-context-3.2.0.tgz"
   "version" "3.2.0"
@@ -6113,12 +6203,17 @@
   dependencies:
     "warn-once" "^0.1.0"
 
+"react-native-size-matters@^0.3.1":
+  "integrity" "sha1-JNDPwzWixzD21YvXtD6lpBvktJ8="
+  "resolved" "https://registry.npm.taobao.org/react-native-size-matters/download/react-native-size-matters-0.3.1.tgz"
+  "version" "0.3.1"
+
 "react-native-status-bar-height@^2.6.0":
   "integrity" "sha1-tq/SW249UzxD0Pzc/Vyv13VZLOo="
   "resolved" "https://registry.npm.taobao.org/react-native-status-bar-height/download/react-native-status-bar-height-2.6.0.tgz"
   "version" "2.6.0"
 
-"react-native-vector-icons@^8.1.0":
+"react-native-vector-icons@^8.1.0", "react-native-vector-icons@>7.0.0":
   "integrity" "sha1-6O4rF7xNn2Ntocb2f+7o4qhQw9g="
   "resolved" "https://registry.npm.taobao.org/react-native-vector-icons/download/react-native-vector-icons-8.1.0.tgz"
   "version" "8.1.0"
@@ -6147,7 +6242,7 @@
     "prop-types" "^15.6.0"
     "react-timer-mixin" "^0.13.4"
 
-"react-native@*", "react-native@>=0.42.0", "react-native@>=0.62.0-rc.0 <0.64.0", "react-native@https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz":
+"react-native@*", "react-native@^0.63.2", "react-native@>=0.42.0", "react-native@>=0.62.0-rc.0 <0.64.0", "react-native@https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz":
   "integrity" "sha512-qWR6pcG4yDu/Rthm+DvAS017rL38LbZFnJv/k4HL4ZUH/WhKuqC+stD7TlpaOBb3N2bkydm9s+GCa14T41MLEg=="
   "resolved" "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz"
   "version" "0.63.2"

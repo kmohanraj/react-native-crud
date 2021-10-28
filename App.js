@@ -9,7 +9,7 @@ import BooksScreen from "./components/BooksScreen";
 import { NavigationContainer} from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeScreen from "./components/HomeScreen";
-import EmployeeScreen from "./components/Employee";
+import CustomerScreen from "./components/Customer";
 import  Icon  from "react-native-vector-icons/FontAwesome";
 
 class App extends Component {
@@ -34,8 +34,8 @@ class App extends Component {
               }}/>
             <Tab.Screen 
               activeColor="red"
-              name="Employee" 
-              component={EmployeeScreen}
+              name="Customers" 
+              component={CustomerScreen}
               options={{
                 tabBarIcon: ({color, size}) => (
                   <Icon name="user" color={color} size={size} />
